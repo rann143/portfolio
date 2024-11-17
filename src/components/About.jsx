@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="bg-slate-50 h-screen">
+    <section className="bg-slate-50 h-screen">
       <div className="p-20 flex flex-col justify-start items-center">
         <h2>About Me</h2>
         <p>
@@ -10,6 +10,6 @@ export default function About() {
           deleniti? Deleniti, obcaecati ipsa.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
