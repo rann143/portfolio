@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --hexagon-size: 100px;
-  --hexagon-height: 110px; /* height * 3/4 */
+  --hexagon-size: 50px;
+  --hexagon-height: 55px; /* height * 3/4 */
   --row-height: calc(var(--hexagon-height) * 0.75);
 }
 
@@ -15,8 +15,10 @@
 
   .row {
     display: inline-flex;
-    margin-top: -32px;
-    margin-left: -50px;
+    /* margin-top: -32px;
+    margin-left: -50px; */
+    margin-top: -18px;
+    margin-left: -25px;
   }
 
   .row:nth-child(even) {
@@ -25,7 +27,6 @@
 
   .hexagon {
     position: relative;
-    box-sizing: border-box;
     width: var(--hexagon-size);
     height: var(--hexagon-height);
     background: rgb(255, 255, 255);
@@ -35,7 +36,7 @@
   }
 
   .hexagon:before {
-    content: "";
+    /* content: ""; */
     position: absolute;
     top: 0;
     left: 0;
